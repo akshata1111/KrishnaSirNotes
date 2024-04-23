@@ -10,7 +10,7 @@
     # 2 phases:
     1. compilation/Memory creation (Heap):-     
      - Happning in 1 st phase in Heap.
-     - Memory creation for variable and default value assign 
+     - Memory creation is for variable and default value assign 
      - creating address - memory creation/Allocation
 
     2. Code execution(Stack):
