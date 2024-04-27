@@ -1,8 +1,11 @@
 //Day5
 
-/*let a = 20;   // G,F,B
-    const b = 10; // G,F,B
+/*
     var c = 5;  // G,F
+    let a = 20;   // G,F,B
+    const b = 10; // G,F,B
+   
+    //----------------------------------------------------------
 
     console.log("Global",a, b, c);  // Access globally
 
@@ -15,6 +18,7 @@
         console.log("Block",a, b, c); // Access in block scope
     };
 	
+    //----------------------------------------------------------
 	let a = 20;   // G,F,B
     const b = 10; // G,F,B
     var c = 5;  // G,F

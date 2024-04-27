@@ -2,7 +2,6 @@
 // Symbol always create new momery address for its value: always we have diffrent address
 console.log(Symbol("Hi") == Symbol("Hi"))  // false
 
-
 // Application of symbol:
 // in object:
 // cant store duplicate keys:
@@ -11,6 +10,7 @@ let obj = {
     "name": "JS"
 }
 console.log(obj.name); // JS
+
 // cant store duplicate keys:
 // obj.name = "TS"  // update name value
 console.log(obj.name);

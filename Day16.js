@@ -70,4 +70,4 @@ console.log(str3, typeof str3)  // JS3 string
 Truthy values : true, numbers(non zero), string(non empty),special characters, all function, object(Any object), array(Any array)
 Falsy values: false, 0, Empty string-> '',  null, undefined, NaN
 
-NOTE:  Empty object & array are true values;
+NOTE:  Empty object & array are true values;*/

@@ -37,7 +37,7 @@ console.log(typeof add)  // function
 // Symbol:
 // Its ES6 feature
 // Define datatype --> Syntax --> Symbol(string,Number,undefine)
-// like-> array --> [,,,], {key:value}
+// like-> array --> [,,,], {key:value} --> primitive datatype --> used as unique identifier
 // let arr = []
  let a = Symbol("Hi");
  // "Hi" --> Value
@@ -48,14 +48,8 @@ console.log(typeof add)  // function
 
  // Symbol always create new momery address for its value: always we have diffrent address
  console.log(Symbol("Hi") == Symbol("Hi"))  // false
- 
- // 
 
-
-
-
-
-// // Application of Symbol datatype:
+// Application of Symbol datatype:
 // let obj = {
 //     a: 10,
 //     b: 20,
@@ -63,6 +57,8 @@ console.log(typeof add)  // function
 //     "user Id": 30,
 // }
 // console.log(obj["user"]) // abc
+
+
 // //  obj["user"] = "xyz"
 
 // let z = Symbol("user")

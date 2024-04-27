@@ -25,8 +25,6 @@ B. Non-Primitive datatype- mutable
 2. object
 
 */
-
-
 //------------------------------------------
 // Array:
 
@@ -47,7 +45,6 @@ let num = 10;
 let a = true;
 // Can mutate the value
 
-
 //-----------------------------------------------
 // Object: can the store info in descriptive form
 // Values stores on key
@@ -58,9 +55,11 @@ let obj = {
     // object key/ propertyName/ variable --> a
     // key Value --> 10; have all datatypes
 }
+
 // CURD
 // Update-> mutate=>
-// retrive values from object
+// retrive values from object:
+
 //1. Dot notation:
 // objectName.keyName
 
@@ -71,7 +70,6 @@ let obj = {
 console.log(obj.a)  // 10
 
 // update value
-
 obj.a = "JS"
 console.log(obj.a)  //  JS
 
@@ -85,7 +83,7 @@ console.log(obj.a)  //  JS
 // Can assign it to variable for temproray
 // Its indication of absence of original value;
 
-// This datatype not containe any value
+// This datatype not contain any value
 
 let aa = null;
 console.log(aa) // null

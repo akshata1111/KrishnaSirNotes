@@ -20,5 +20,5 @@
     # what is hoisting in js ?
     - Hoisting nothing but the variable declaration.
     - In variable declaration and assign its default value in first memory creation phase (Heap Block).
-    - For var we have default undefined value and with let, const variables value is unavailable(Value not present) 
+    - For var, we have default undefined value and with let, const variables value is unavailable(Value not present).
     */

@@ -10,7 +10,7 @@
     console.log(a2);  //  "fun variable"
   }
   scope();
-  // console.log(a2);  //ReferenceError: a2 is not defined
+  // console.log(a2);  //ReferenceError: a2 is not defined*********************
 
 
   // Block scope - if, for loop
@@ -35,7 +35,7 @@
   console.log(i) // 6  ??
 
 
-  // everything in js os object:
+  // everything in js is object:
   // console --> object
   // log() --> method
   // object.method()

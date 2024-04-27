@@ -41,7 +41,7 @@ console.log(a2);  // "Global updated A2-Function"
 //     console.log("--Block End---")
 // }
 
-# Temporal dead zone: (TDZ)=> Time/space in bt script load or memory creation and variable initialization.
+# Temporal dead zone: (TDZ)=> Time/space in bt script load or memory creation and variable initialization.****
     // var - No TDZ
     // let, const - Yes TDZ
 

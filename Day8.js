@@ -21,7 +21,7 @@
 
 # js Comments? use?
 1. single line comment // [ctrl+/]
-2. multiline comment /* */ [shift+alt+a]
+2. multiline comment /* */ //[shift+alt+a]
 /*
 # synch Execution ?
 
@@ -61,36 +61,41 @@ phase?
 #Hoisting in js?(variable and fun)*/
 
 /* -split it (keywords,variable, operators,value)
--variable stages:
+-------variable stages:
  undeclared- not define in script
  declared- Define in script
- -variable decleration : var, let const
+
+-------variable decleration : var, let const
+
  Initialization - Assign first time value
  update/change/reassign- Change first time value
  Redeclared- decleared variable second time
-  */
+ */
 
 // read variable:
+
 //  console.log(str) // str is not defined
+
 //  let str;
 //  console.log(str)  // undefined
+
 //  str = "hi"  // Initialization
 //  console.log(str)  // hi
+
 //  str = 10  // update/change/reassign
 //  console.log(str) // 10
 
-// //  Redeclared-
+// //  Redeclared:
+
 // var a = 100;
 // console.log(a)  // 100
 // var a = "JS";  //  Redeclared
 // console.log(a)  //  JS
 
-
 // let -> js keyword
 // str -> variable / memory address
 // = -> operator
 // "js" -> value
-
 
 //Initialization : required or not
 // var a; // N
@@ -128,7 +133,6 @@ phase?
 // const a = 10;
 // console.log(a);  // can not redeclared with const
 
-
 // // Variable decleration: Exception
 // // G scope
 // b = 10
@@ -143,14 +147,15 @@ phase?
 
 //  scope: Global, Function, Block
 // Global- window object ( can access in that object)
-// Function - 
 
+// Function - 
 // function funName(){
 //     // statement
 //     // function scope
 // }
 
-// // Block- if(), for loop
+// // Block- 
+//if(), for loop
 
 // if(true){
 //     // block scope
@@ -166,15 +171,15 @@ phase?
 //     var b = "HI VAR";
 //     console.log(b);  //   "HI VAR"
 // }
-// console.log(b);  // ReferenceError: b is not defined
+// console.log(b);  // ReferenceError: b is not defined***************************************imp
 // funName();
 
 // Var not have block scope:
-if (true) {
-    var c = "HI Var in block";
-    console.log(c); //  "HI Var in block"
-}
-console.log("outside BLOCK", c);  //outside BLOCK HI Var in block
+// if (true) {
+//     var c = "HI Var in block";
+//     console.log(c); //  "HI Var in block"
+// }
+// console.log("outside BLOCK", c);  //outside BLOCK HI Var in block
 
 
 // 2. let scope: G,F,B

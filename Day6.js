@@ -1,4 +1,4 @@
-// varible declaration: var, let const
+// varible declaration: var, let, const
 
     // ES6:
     // Not best practice to write js
@@ -6,8 +6,8 @@
     // without keyword when declared variable he have global scope- no matter where its declared
     // e.g: Global,Function,Block
     
-    a = 10;  // undeclared variable
-    console.log("without keyword", a);
+    //a = 10;  // undeclared variable
+    //console.log("without keyword", a);
 
     // js strict mode- js applied standard/best practices
     // normal js running in without strict mode

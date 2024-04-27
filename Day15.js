@@ -4,7 +4,8 @@
 // 3. intanceof
 // 4. void
 
-//3. intanceof
+//3. instanceof
+
 // Action- Check intance
 // Return : Boolean
 
@@ -14,15 +15,16 @@
 // console.log(obj instanceof Array)  // false
 // console.log(obj instanceof Object)  // true
 
-// // 4. void
-// // Action : return as a undefined
-// // return : ForceFully undefined return
-// // void expression
+// 4. void
+
+// Action : return as a undefined
+// return : ForceFully undefined return
+// void expression
 
 // let a = 10
 // console.log(a)  // 10
 // let aa = void 10
-// console.log(aa)  //undefined
+// console.log(aa) //undefined
 
 // function add() {
 //     return 4
@@ -32,6 +34,7 @@
 
 
 // 2. typeof:
+
 // Action: finding datatype
 // Return : string
 // typeof expresion OR typeof (expresion)
