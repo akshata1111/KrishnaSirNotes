@@ -1,5 +1,5 @@
 // Datatypes in js:
-// number, bigInt, string, null, undefined, boolean,symbol, object,array, function, RegEx.
+// number, bigInt, string, null, undefined, boolean,symbol, object, array, function, RegEx.
 
 // Truthy, Falsy values in js:
 // Truthy : true, numbers(non zero), string(non empty), all function, object(Non empty), array(non empty)

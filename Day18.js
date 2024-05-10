@@ -1,7 +1,8 @@
 // Datatypes in js:
 // number, bigInt, string, null, undefined, boolean,symbol, object,array, function, RegEx.
 
-// number:
+// Number:
+
 // let a = 10;
 // Global method-> Number(arg)
 // Action: arg Convert/ made number datatype
