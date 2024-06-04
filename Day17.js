@@ -46,6 +46,8 @@
 // // 10+10 --> 20
 // // "Hi"+"JS" --> "HiJS" --> joining LHS & RHS
 // console.log('Addition of' + a + 'and' + b + 'is equal to :' + (a + b)) // Addition of10and10is equal to :20
+
+
 // // Template literal: can read variable value in string
 // // Place holders- ${}, ``
 // console.log(Addition of ${a} and ${b} is equal to : ${a+b})

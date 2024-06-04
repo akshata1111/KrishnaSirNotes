@@ -1,4 +1,4 @@
-// ====================================================
+// ======================================================
 // # Corecion: forcefully datatype conversion
 
 console.log(1 < false) // 1 < 0 // false
@@ -17,7 +17,7 @@ console.log("Hi" > false)  // 0 > 0 --> false
 // "Hi" --> Convert number --> Number("Hi") --> NaN(falsy)--> 0
 
 // console.log("" < 0)  // 0 < 0 // false
-// console.log("Data conversion",Number(""))  // 0
+// console.log("Data conversion",Number("")) // 0
 
 console.log("3" > true) // 3 > 1 // true
 // "3" --> 3

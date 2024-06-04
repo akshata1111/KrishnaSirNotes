@@ -13,7 +13,7 @@
 // console.log(a) // /abc/
 // console.log(typeof a) // object
 
-// // boolean --> true, false
+// // boolean -->   true, false
 // console.log(typeof true) // boolean
 
 // Truthy, Falsy values in js:

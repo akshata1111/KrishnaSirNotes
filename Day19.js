@@ -1,7 +1,7 @@
 // Global methods:
-// String(), Number(), Math, alert(), confirm(), prompt()
+// String(), Number(), Math(), alert(), confirm(), prompt()
 
-// Methods Reciving user input from the browser : 
+// Methods Receiving user input from the browser : 
 // alert(), confirm(), prompt()
 
 // alert(arg) --> arg = msg
