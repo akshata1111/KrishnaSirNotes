@@ -53,8 +53,10 @@ function* funGenerator() {
   /* ------------------------------------------
   # function recursion : 
     -A recursive function is a function that calls itself until the program achieves the desired result.
-    -A recursive function should have a condition that stops the function from calling itself.otherwise, 'RangeError: Maximum call stack size exceeded'  error will be thrown
-    -A recursive function can be used instead of a loop where we don't know how many times the loop needs to be executed.
+    -A recursive function should have a condition that stops the function from calling itself 
+    otherwise, 'RangeError: Maximum call stack size exceeded'  error will be thrown
+    -A recursive function can be used instead of a loop where we don't know how many times
+     the loop needs to be executed.
     ------------
     use : 
     pagination ---> cypress UI

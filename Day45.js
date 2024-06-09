@@ -1,10 +1,13 @@
 /*
 /* 
 # Lexical Scope: 
-   -The scope of a variable is determined by its location within the source code and nested functions have access to variables declared in their outer scope.
+   -The scope of a variable is determined by its location within the source code and nested functions
+    have access to variables declared in their outer scope.
 # Closure: 
-   -A closure is an inner function that has access to its outer function's variables even after the outer function's execution is Completed/Closed.
-   -A function that retains access to its lexical scope even when it is executed outside of that lexical scope. e.g. counter
+   -A closure is an inner function that has access to its outer function's variables even after
+    the outer function's execution is Completed/Closed.
+   -A function that retains access to its lexical scope even when it is executed outside of that 
+   lexical scope. e.g. counter
 */
 
 function outer() {

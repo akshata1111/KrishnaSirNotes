@@ -36,7 +36,7 @@ let fun = () => {
   // let obj2 = new printName("js");
   
   /* ------------------------------------------------------------
-  5. IIFE : (Immediately Invoked Function Expression) or self calling/incoke function
+  5. IIFE : (Immediately Invoked Function Expression) or self calling/invoke function
      -The function is invoked Immediately after the declaration
      -If we have to exceute a block of code only once, IIFE can be used
      -self invoked functions cann't be invoked more than once.

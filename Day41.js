@@ -21,7 +21,7 @@ Q. diff bt function decleration and function expression ?
 
 /* 
 1. function declaration (named):
-  - function declaration have feature for the hoisting, It will be fully hoisted at time of memory   creation phase or 
+  - function declaration have feature for the hoisting, It will be fully hoisted at time of memory creation phase or 
    parse or 
    fully decleared in global variable with default itself value
 
@@ -39,7 +39,9 @@ Q. diff bt function decleration and function expression ?
   2. function expression (anonymous) :
     - fun variable declared with let keyword and assigned it function as value
     - fun will be hoisted as per the let keyword 
-    - with the let, const, var declarard variabled have its default value in hoisting in memory creation phase like no value for let, const and undefined for var. But no one have function value. Hence function expression cant be called before the its declaration.
+    - with the let, const, var declarard variabled have its default value in
+     hoisting in memory creation phase like no value for let, const and undefined for var. 
+     But no one have function value. Hence function expression cant be called before the its declaration.
 */
 
 // fun()  // ReferenceError: Cannot access 'fun' before initialization

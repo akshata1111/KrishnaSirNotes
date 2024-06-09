@@ -1,7 +1,7 @@
 /* 
 ** Js code running line by line---> But,
-    1. Want to run some block code as per the contion/requirement
-    2. Want to Repeat the code of block as per the contion/requirement
+    1. Want to run some block code as per the condition/requirement
+    2. Want to Repeat the code of block as per the condition/requirement
 -Solution : Use JS control flows.
 
 ** Conrol Flows in JS:

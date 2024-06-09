@@ -1,5 +1,5 @@
 /* 
-** Conrol Flows in JS:
+** Control Flows in JS:
     1. Conditional statements --> if-else, switch case
     2. Loops --> for, while, do-while, for-in, for-of
  */

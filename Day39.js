@@ -48,7 +48,7 @@ Note: Interview questions came from the star patterns
 // }
 
 // E.g. Print Pattern: 
-for (let i = 1; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
     // console.log('outer loop :', i)
     let str = ''
     for (let j = 1; j <= i; j++) {

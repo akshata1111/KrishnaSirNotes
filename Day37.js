@@ -6,7 +6,7 @@
 // for(let variableNmae in objectName){
 // // Block of code
 // }
-// // in --> iterating propertyName/key or index from the object
+// // in --> iterating propertyName/key or index from the object-----------------------
 
 let obj = {
     fname: "JS",
@@ -37,7 +37,7 @@ let arr = [10, 20, 30, "str"]
 // for(let variableNmae of objectName){
 // // Block of code
 // }
-// // of --> iterating values from the object
+// // of --> iterating values from the object-------------------------
 
 // for (let value of arr) {
 //     console.log(value) //10,20,30,str
