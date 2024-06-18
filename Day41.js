@@ -21,9 +21,8 @@ Q. diff bt function decleration and function expression ?
 
 /* 
 1. function declaration (named):
-  - function declaration have feature for the hoisting, It will be fully hoisted at time of memory creation phase or 
-   parse or 
-   fully decleared in global variable with default itself value
+  - function declaration have feature for the hoisting, It will be fully hoisted 
+    at time of memory creation phase or parse or fully decleared in global variable with default itself value.
 
    -bcoz of that we can access it before and after the function declaration in code execution phase.
    [ considering which phase is running insted of Before and After code writting ]

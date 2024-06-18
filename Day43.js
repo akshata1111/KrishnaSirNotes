@@ -68,6 +68,8 @@ let fun = function () {
   // }
   // // function calling
   // add(2, 2)
+
+  
   // // function print
   // let a = add(2, 2);
   // console.log(add(2, 2))  // undefined
